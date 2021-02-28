@@ -1,0 +1,32 @@
+{
+  "name": "js-native-blog",
+  "version": "1.0.0",
+  "description": "js native blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ovchinnikov-Kirill/MininPorject.git"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "javascript"
+  ],
+  "author": "Ovchinnikov Kirill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ovchinnikov-Kirill/MininPorject/issues"
+  },
+  "homepage": "https://github.com/Ovchinnikov-Kirill/MininPorject#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.2.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
